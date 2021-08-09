@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>agregar producto</h2>
+    <form action="" method="POST" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">nombre</label>
+<input type="text" class="form-control" name="title" id="formGroupExampleInput">
+    </div>
+    <div class="mb-3" >
+        <label for="floatingTextarea">descripcion</label>
+        <textarea class="form-control" name="description" id="floatingTextarea" cols="30" rows="10"></textarea>
+    </div>
+    <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">precio</label>
+<input type="number" class="form-control" name="price" id="formGroupExampleInput2">
+    </div>
+    <div class="mb-3">
+        <label for="category" class="form-label">categoria</label>
+<select class="form-select" name="category" id="category">
+    <option value="" selected hid   den>selecciona la categoria</option>
+    <% categorias.forEach(categoria =>{ %> 
+        <option value="<%= categoria  %>" ><%= categoria %> </option>
+        <% }) %> 
+</select>
+    </div>
+    
+    </form>
+</body>
+</html>

@@ -1,0 +1,57 @@
+[{
+
+"id":1,
+"title":"Iphone SE",
+"description":"lorem ipsum",
+"image": "img-phone-01.jpg"
+},
+{
+
+    "id":2,
+    "title":"samsung A02",
+    "description":"lorem ipsum",
+    "image": "img-phone-02.jpg"
+    },
+    {
+
+        "id":3,
+        "title":"Hundai K4",
+        "description":"lorem ipsum",
+        "image": "img-phone-02.jpg"
+        },
+        {
+
+            "id":4,
+            "title":"Motorola G9",
+            "description":"lorem ipsum",
+            "image":"img-phone-02.jpg"
+            },
+            {
+
+                "id":5,
+                "title":"LG",
+                "description":"lorem ipsum",
+                "image":"img-phone-02.jpg"
+                },
+                {
+
+                    "id":7,
+                    "title":"Nokia 1100",
+                    "description":"lorem ipsum",
+                    "image":"img-phone-02.jpg"
+                    },
+                    {
+
+                        "id":5,
+                        "title":"LG",
+                        "description":"lorem ipsum",
+                        "image":"img-phone-02.jpg"
+                        },
+                        {
+
+                            "id":5,
+                            "title":"LG",
+                            "description":"lorem ipsum",
+                            "image":"img-phone-02.jpg"
+                            }
+                            ]
